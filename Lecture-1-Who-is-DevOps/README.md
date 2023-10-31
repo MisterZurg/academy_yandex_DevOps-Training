@@ -8,11 +8,12 @@
 Решить 10 простых задачек с https://leetcode.com/
 
 **Yandex All Time 6 month**
+> 🔗 ссылка на задачу
 
 |                                                                    Title                                                                     |  Freq  | Note |     
 |:--------------------------------------------------------------------------------------------------------------------------------------------:|:------:|:----:|
 |                    $\textcolor{#3fca7d}{\textsf{228 Summary Ranges}}$ [🔗](https://leetcode.com/problems/summary-ranges)                     | 126.56 |      |                 
-|          $\textcolor{#3fca7d}{\textsf{977 Squares of a Sorted Array}}$ [🔗](https://leetcode.com/problems/squares-of-a-sorted-array          | 60.40  |      |
+|         $\textcolor{#3fca7d}{\textsf{977 Squares of a Sorted Array}}$ [🔗](https://leetcode.com/problems/squares-of-a-sorted-array)          | 60.40  |      |
 | $\textcolor{#3fca7d}{\textsf{2215 Find the Difference of Two Arrays}}$ [🔗](https://leetcode.com/problems/find-the-difference-of-two-arrays) | 30.70  |      |
 |     $\textcolor{#3fca7d}{\textsf{350	Intersection of Two Arrays II}}$ [🔗](https://leetcode.com/problems/intersection-of-two-arrays-ii)      | 22.06  |      |
 |                      $\textcolor{#3fca7d}{\textsf{283	Move Zeroes}}$ [🔗](https://leetcode.com/problems/move-zeroes) 		                      | 18.73  |      |
