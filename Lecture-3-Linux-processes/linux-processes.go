@@ -8,7 +8,7 @@ import (
 	"runtime"
 )
 
-// информацию о процессе
+// GetProcessInfo решает шаг 01 — собрать информацию о текущем процессе
 func GetProcessInfo() {
 	//processID := os.Getpid()
 	//fmt.Println("Process Id is", processID)
@@ -26,7 +26,7 @@ func GetProcessInfo() {
 	runtime.ReadMemStats(&memUsage)
 	fmt.Printf("Потребление памяти: %d bytes\n", memUsage.Alloc)
 
-	// путь до исполняемого файла в проекте
+	// Получение и вывод пути до исполняемого файла в проекте i donno
 	//pwd, err := os.Getwd()
 	//if err != nil {
 	//	fmt.Println(err)
@@ -43,7 +43,7 @@ func GetProcessInfo() {
 	}
 }
 
-// Функция для получения количества дескрипторов
+// getDescriptorCount хелпер для получения количества дескрипторов
 func getDescriptorCount() (int, error) {
 	var OS_PATH string
 	operatingSystem := runtime.GOOS
@@ -75,6 +75,7 @@ func getDescriptorCount() (int, error) {
 	return len(files), nil
 }
 
+// GetSystemInfo решает шаг 02 — собрать информацию о системе
 func GetSystemInfo() {
 	// Информация о процессоре:
 	fmt.Println(runtime.GOOS)     // darwin aka "MAC operating system"
