@@ -24,6 +24,6 @@
 
 ## Syllabus
 ### Тренировки по DevOps
-- [Лекция 1. Кто такой DevOps-инженер](https://www.youtube.com/watch?v=mMEeidcHpoY)
-- Облако. Кто виноват и что делать?
-- TBA
+- [Лекция 1: Кто такой DevOps-инженер](https://www.youtube.com/watch?v=mMEeidcHpoY)
+- [Лекция 2: Облако. Кто виноват и что делать?](https://youtube.com/live/N7pWdC6N0c4)
+- [Лекция 3: Процессы Linux](https://youtube.com/live/usQYwp916e0)
