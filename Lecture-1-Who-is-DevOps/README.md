@@ -14,9 +14,9 @@
 |:--------------------------------------------------------------------------------------------------------------------------------------------:|:------:|:----------------------:|
 |                    $\textcolor{#3fca7d}{\textsf{228 Summary Ranges}}$ [🔗](https://leetcode.com/problems/summary-ranges)                     | 126.56 |     `Two Pointers`     |                 
 |         $\textcolor{#3fca7d}{\textsf{977 Squares of a Sorted Array}}$ [🔗](https://leetcode.com/problems/squares-of-a-sorted-array)          | 60.40  |     `Two Pointers`     |
-| $\textcolor{#3fca7d}{\textsf{2215 Find the Difference of Two Arrays}}$ [🔗](https://leetcode.com/problems/find-the-difference-of-two-arrays) | 30.70  |                        |
-|     $\textcolor{#3fca7d}{\textsf{350	Intersection of Two Arrays II}}$ [🔗](https://leetcode.com/problems/intersection-of-two-arrays-ii)      | 22.06  |                        |
-|                      $\textcolor{#3fca7d}{\textsf{283	Move Zeroes}}$ [🔗](https://leetcode.com/problems/move-zeroes) 		                      | 18.73  |                        |
+| $\textcolor{#3fca7d}{\textsf{2215 Find the Difference of Two Arrays}}$ [🔗](https://leetcode.com/problems/find-the-difference-of-two-arrays) | 30.70  |       `HashSet`        |
+|     $\textcolor{#3fca7d}{\textsf{350	Intersection of Two Arrays II}}$ [🔗](https://leetcode.com/problems/intersection-of-two-arrays-ii)      | 22.06  |     `Two Pointers`     |
+|                    $\textcolor{#3fca7d}{\textsf{283	Move Zeroes}}$ [🔗](https://leetcode.com/problems/move-zeroes) 		                        | 18.73  |                        |
 |              $\textcolor{#3fca7d}{\textsf{680	Valid Palindrome II}}$ [🔗](https://leetcode.com/problems/valid-palindrome-ii) 	               | 16.81  |                        |
 |                $\textcolor{#3fca7d}{\textsf{205	Isomorphic Strings}}$ [🔗](https://leetcode.com/problems/isomorphic-strings)                 | 14.50  |                        |
 |           $\textcolor{#3fca7d}{\textsf{657	Robot Return to Origin}}$ [🔗](https://leetcode.com/problems/robot-return-to-origin   )           | 13.26  | `Two Pointers`, `Math` |
@@ -29,7 +29,17 @@
 и с его помощью добавить по пробелу в начало каждой строки вывода `ls -l`. 
 Например, из «drwxr-xr-x ...» должно получиться «drwxr-xr-x ...» (с пробелом в начале). 
 
+```shell
+# Пробел вначале строки                  \/
+misterzurg@MacBook-Pro % ls -l | sed 's/^/ /'
+# Октотроп вначале строки                \/
+misterzurg@MacBook-Pro % ls -l | sed 's/^/#/'
+```
+
 Задача со звездочкой - сделать то же самое с помощью `awk`. 
+```shell
+misterzurg@MacBook-Pro % ls -l | awk '{print "#" $0}'
+```
 
 ## 03 
 Почитать в интернете про аппаратные возможности современных серверов. 
