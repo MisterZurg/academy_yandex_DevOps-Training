@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/shirou/gopsutil/disk"
-	"github.com/shirou/gopsutil/mem"
 	"os"
 	"runtime"
+
+	"github.com/shirou/gopsutil/disk"
+	"github.com/shirou/gopsutil/mem"
 )
 
 // GetProcessInfo решает шаг 01 — собрать информацию о текущем процессе
