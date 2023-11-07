@@ -4,4 +4,4 @@
 
 Поднять сервис в Облаке!
 - С использованием нескольких сервисов Облака, GitHub и Terraform.
-- Ждём ТЗ!
+- [ТЗ on GitGub](https://github.com/krya-kryak/y-y-devops-trainings-cloud-1)!
